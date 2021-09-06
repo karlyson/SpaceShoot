@@ -1,0 +1,8 @@
+1 - Player
+	1.1 - Importar sprite - FEITO
+	1.2 - Criar objeto - FEITO
+	1.3 - Mover com WASD - FEITO
+	
+2 - Dimensões da Room e Viewport
+	2.1 - Criando viewport e camera - FEITO
+	2.2 - Ajustando para view ser maior que o viewport - FEITO
