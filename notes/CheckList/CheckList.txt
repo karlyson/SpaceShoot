@@ -20,3 +20,8 @@
 	4.1 - Importar sprite - FEITO
 	4.2 - Criando objeto - FEITO
 	4.3 - Fazer ele ir para baixo - FEITO
+	
+5 - Inimigo 01 atirar
+	5.1 - Importar sprite
+	5.2 - Criar objeto
+	5.3 - Fazer ir para baixo
