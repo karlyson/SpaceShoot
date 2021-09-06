@@ -6,3 +6,11 @@
 2 - Dimensões da Room e Viewport
 	2.1 - Criando viewport e camera - FEITO
 	2.2 - Ajustando para view ser maior que o viewport - FEITO
+	
+3 - Atirar
+	3.1 - Importar sprite - FEITO
+	3.2 - Criar objeto - FEITO
+	3.3 - Fazer ir para cima - FEITO
+	3.4 - Fazendo o jogar atirar ao apertar espaço - FEITO
+	3.5 - Efeito para tiro
+		3.5.1 - Nascer grande e depois diminuir
