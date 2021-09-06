@@ -14,4 +14,9 @@
 	3.4 - Fazendo o jogar atirar ao apertar espaço - FEITO
 	3.5 - Efeito para tiro - FEITO
 		3.5.1 - Nascer grande e depois diminuir - FEITO
-	3.6 - Destruir o tiro qunado sair da tela - FEITO
+	3.6 - Destruir o tiro quando sair da tela - FEITO
+	
+4 - Primeiro inimigo
+	4.1 - Importar sprite - FEITO
+	4.2 - Criando objeto - FEITO
+	4.3 - Fazer ele ir para baixo - FEITO
