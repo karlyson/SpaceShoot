@@ -12,5 +12,6 @@
 	3.2 - Criar objeto - FEITO
 	3.3 - Fazer ir para cima - FEITO
 	3.4 - Fazendo o jogar atirar ao apertar espaço - FEITO
-	3.5 - Efeito para tiro
-		3.5.1 - Nascer grande e depois diminuir
+	3.5 - Efeito para tiro - FEITO
+		3.5.1 - Nascer grande e depois diminuir - FEITO
+	3.6 - Destruir o tiro qunado sair da tela - FEITO

@@ -12,5 +12,5 @@ y += (down - up) * velocidade;
 x += (right - left) * velocidade;
 
 if (fire) {
-	instance_create_layer(x, y - (sprite_height / 2), "Tiros", obj_tiro_player);
+	instance_create_layer(x, y - (sprite_height / 3), "Tiros", obj_tiro_player);
 }
