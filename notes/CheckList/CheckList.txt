@@ -30,4 +30,12 @@
 	
 6 - Fazer tiro do player acertar o inimigo
 	6.1 - Se destruir ao encontar no inimigo - FEITO
-	6.2 - Criar impacto do tiro do player
+	6.2 - Criar impacto do tiro do player - FEITO
+	6.3 - Fazer o impacto sumir ao final da animação - FEITO
+	6.4 - Não criar ao sair da room - FEITO
+	
+7 - Fazer o tiro do inimigo acertar o player
+	7.1 - Se destruir ao encontar no inimigo - FEITO
+	7.2 - Criar impacto do tiro do player - FEITO
+	7.3 - Fazer o impacto sumir ao final da animação - FEITO
+	7.4 - Não criar ao sair da room - FEITO
