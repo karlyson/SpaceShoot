@@ -22,6 +22,8 @@
 	4.3 - Fazer ele ir para baixo - FEITO
 	
 5 - Inimigo 01 atirar
-	5.1 - Importar sprite
-	5.2 - Criar objeto
-	5.3 - Fazer ir para baixo
+	5.1 - Importar sprite - FEITO
+	5.2 - Criar objeto - FEITO
+	5.3 - Fazer ir para baixo - FEITO
+	5.4 - Atirando - FEITO
+	5.5 - Efeito no tiro - FEITO
