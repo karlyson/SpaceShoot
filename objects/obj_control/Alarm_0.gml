@@ -1,9 +1,9 @@
 /// @description Cria os inimigos
 
-randomize();
-var xx = irandom_range(64, room_width - 64);
-var yy = irandom_range(-96, -1500);
+if (!instance_exists(obj_inimigo01)) {
+	repeat(10 * level) {
+		cria_inimigo();
+	}
+}
 
-instance_create_layer(xx,yy,"Inimigos", obj_inimigo01);
-
-alarm[0] = room_speed;
+alarm[0] = room_speed * 5;

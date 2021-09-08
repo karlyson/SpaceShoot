@@ -8,6 +8,11 @@ pontos = 10;
 randomize();
 alarm[0] = random_range(min_fire_time, max_fire_time) * room_speed;
 
+//Checando se não estou em cima de alguém
+if (place_meeting(x, y, obj_inimigo01)) {
+	instance_destroy(id, false);
+}
+
 atirando = function() {
 	if (y >= 0) {
 		//-3 para alinhar com a boca

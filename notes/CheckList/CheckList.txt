@@ -76,6 +76,11 @@
 13 - Criação dos inimigos
 	13.1 - Fazer com que o control crie inimigos de tempo em tempo - FEITO
 	13.2 - Fazer em posição aleatória - FEITO
+	13.3 - Criando inimigos diferente com base no level - FEITO
+	13.4 - Criar onda de inimigos - FEITO
+	13.5 - Criar as ondas apenas se não tem mais inimigos - FEITO
+	13.6 - Criar a quantidade de inimigos com base no level - FEITO
+	13.7 - Impedir que inimigos fiquem no mesmo lugar - FEITO
 
 14 - Criando objeto controlador do jogo
 	14.1 - Ganhar pontos ao destruir inimigos - FEITO
@@ -83,3 +88,9 @@
 15 - Criando sistema de pontos
 	15.1 - Ganhando pontos ao eliminar inimigo - FEITO
 	15.2 - Ganhar pontos diferentes por inimigo diferente - FEITO
+	
+16 - Criando sistema de level
+	16.1 - Criando variável - FEITO
+	16.2 - Mostrando na tela - FEITO
+	16.3 - Ganhar level quando ganhar X level - FEITO
+	16.4 - Dobrar quantidade de pontos para próximo level - FEITO
