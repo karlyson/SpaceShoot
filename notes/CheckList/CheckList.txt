@@ -70,3 +70,5 @@
 	12.1 - Sprite - FEITO
 	12.2 - Objeto - FEITO
 	12.3 - Herdar tiro 01 - FEITO
+	12.4 - Iniciar indo na direção do player - FEITO
+	12.5 - Apontando para direção do player - FEITO
