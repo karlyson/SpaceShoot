@@ -49,4 +49,6 @@
 		8.2.4 - Explosão se destruir ao final - FEITO
 		
 9 - Ajustes parte 1
-	9.1 - Fazer inimigo se destruir ao sair da tela
+	9.1 - Fazer inimigo se destruir ao sair da tela - FEITO
+	
+10 - Adicionar Background
