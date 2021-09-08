@@ -50,5 +50,8 @@
 		
 9 - Ajustes parte 1
 	9.1 - Fazer inimigo se destruir ao sair da tela - FEITO
+	9.2 - Melhorar o background - FEITO
+	9.3 - Melhorando o efeito do tiro - FEITO
+	9.4 - Deixando explosão mais bonita
 	
-10 - Adicionar Background
+10 - Adicionar Background- FEITO
