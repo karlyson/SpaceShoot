@@ -72,3 +72,12 @@
 	12.3 - Herdar tiro 01 - FEITO
 	12.4 - Iniciar indo na direção do player - FEITO
 	12.5 - Apontando para direção do player - FEITO
+	
+13 - Criação dos inimigos
+	13.1 - Fazer com que o control crie inimigos de tempo em tempo - FEITO
+	13.2 - Fazer em posição aleatória - FEITO
+
+14 - Criando objeto controlador do jogo
+	14.1 - Ganhar pontos ao destruir inimigos
+	
+15 - Criando sistema de pontos
