@@ -52,6 +52,21 @@
 	9.1 - Fazer inimigo se destruir ao sair da tela - FEITO
 	9.2 - Melhorar o background - FEITO
 	9.3 - Melhorando o efeito do tiro - FEITO
-	9.4 - Deixando explosão mais bonita
+	9.4 - Deixando explosão mais bonita - FEITO
 	
 10 - Adicionar Background- FEITO
+
+11- Segundo inimigo
+	11.1 - Sprite - FEITO
+	11.2 - Objeto - FEITO
+	11.3 - Fazer inimigo 2 herdar comportamentos do inimigo1
+	11.4 - Fazer ele mudar de direção
+		11.4.1 - Verificando de que lado da room eu estou - FEITO
+		11.4.2 - Mudar de direção - FEITO
+		11.4.3 - Mudar apenas 1 vez - FEITO
+	11.5 - Fazer ele dar um tiro diferente - FEITO
+	
+12 - Criar segundo tiro
+	12.1 - Sprite - FEITO
+	12.2 - Objeto - FEITO
+	12.3 - Herdar tiro 01 - FEITO
