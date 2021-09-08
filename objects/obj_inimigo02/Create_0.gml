@@ -4,6 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
+pontos = 20;
+
 atirando = function() {
 	if (y >= 0) {
 		//-3 para alinhar com a boca

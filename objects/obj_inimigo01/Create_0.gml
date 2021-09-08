@@ -3,6 +3,7 @@
 vspeed = 3;
 min_fire_time = 1;
 max_fire_time = 3;
+pontos = 10;
 
 randomize();
 alarm[0] = random_range(min_fire_time, max_fire_time) * room_speed;

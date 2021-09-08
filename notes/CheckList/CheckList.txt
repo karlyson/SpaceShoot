@@ -78,6 +78,8 @@
 	13.2 - Fazer em posição aleatória - FEITO
 
 14 - Criando objeto controlador do jogo
-	14.1 - Ganhar pontos ao destruir inimigos
+	14.1 - Ganhar pontos ao destruir inimigos - FEITO
 	
 15 - Criando sistema de pontos
+	15.1 - Ganhando pontos ao eliminar inimigo - FEITO
+	15.2 - Ganhar pontos diferentes por inimigo diferente - FEITO
