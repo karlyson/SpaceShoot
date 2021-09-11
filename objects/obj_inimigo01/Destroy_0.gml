@@ -7,3 +7,5 @@ if (instance_exists(obj_control)) {
 }
 
 dropa_item(chance);
+
+screenshake(10);

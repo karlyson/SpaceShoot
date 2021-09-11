@@ -3,7 +3,7 @@
 
 image_alpha -= 0.1;
 
-if (image_alpha <= 0.3) {
+if (image_alpha <= 0) {
 	instance_destroy(id, false);
 }
 

@@ -8,9 +8,10 @@ left = keyboard_check(ord("A"));
 right = keyboard_check(ord("D"));
 escudo = keyboard_check_pressed(ord("E"));
 
-if (escudo) {
-	var escudo = instance_create_layer(x, y, "Escudo", obj_escudo);
-	escudo.alvo = id;
+if (escudo && escudos > 0) {
+	escudos--;
+	var shield = instance_create_layer(x, y, "Escudo", obj_escudo);
+	shield.alvo = id;
 }
 
 y += (down - up) * velocidade;

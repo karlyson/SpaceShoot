@@ -5,8 +5,8 @@ alarm[0] = room_speed;
 
 pontos = 0;
 level = 1;
-
 proximo_level = 100;
+gameover_seq = noone;
 
 ///@method ganha_pontos(pontos)
 ganha_pontos = function(_pontos) {
@@ -20,7 +20,7 @@ ganha_pontos = function(_pontos) {
 cria_inimigo = function() {
 	randomize();
 	var xx = irandom_range(64, room_width - 64);
-	var yy = irandom_range(-96, -1500);
+	var yy = irandom_range(-96, -1500 - (level * 700));
 
 	var inimigo = obj_inimigo01;
 
