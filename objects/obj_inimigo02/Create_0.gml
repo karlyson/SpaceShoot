@@ -5,6 +5,7 @@
 event_inherited();
 
 pontos = 20;
+chance = 30;
 
 atirando = function() {
 	if (y >= 0) {

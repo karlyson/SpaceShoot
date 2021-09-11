@@ -94,3 +94,9 @@
 	16.2 - Mostrando na tela - FEITO
 	16.3 - Ganhar level quando ganhar X level - FEITO
 	16.4 - Dobrar quantidade de pontos para próximo level - FEITO
+	
+17 - Deixar o tiro automático
+	17.1 - Criar evento - FEITO
+	
+18 - Dando leveis para o tiro do player
+	18.1 - Criando sistema de level
