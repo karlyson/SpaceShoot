@@ -1,9 +1,10 @@
 /// @description Iniciando variáveis
 
 velocidade = 5;
-
 espera_tiro = room_speed;
 level_tiro = 1;
+
+vida = 3;
 
 tiro2 = function(_y_tiro) {
 	var tiro_1 = instance_create_layer(x - 60, _y_tiro + 10, "Tiros", obj_tiro2_player);
@@ -40,6 +41,14 @@ atirando = function() {
 			tiro2(y_tiro);
 			tiro4(y_tiro);
 		}
+	}
+}
+
+///@method perde_vida()
+perde_vida = function() {
+	vida--;
+	if (vida <= 0) {
+		instance_destroy();
 	}
 }
 
