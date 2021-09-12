@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_boss_combate",
-    "path": "sprites/spr_boss_combate/spr_boss_combate.yy",
+    "name": "spr_tiro_inimigo02",
+    "path": "sprites/spr_tiro_inimigo02/spr_tiro_inimigo02.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_tiro_inimigo01",
+    "path": "objects/obj_tiro_inimigo01/obj_tiro_inimigo01.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,10 +26,6 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_tiro_player","path":"objects/obj_tiro_player/obj_tiro_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_tiro_minion","path":"objects/obj_tiro_minion/obj_tiro_minion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -35,7 +34,7 @@
     "path": "folders/Objects/boss.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_boss_combate",
+  "name": "obj_tiro_minion",
   "tags": [],
   "resourceType": "GMObject",
 }

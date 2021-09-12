@@ -8,17 +8,27 @@ Estado 3 - Parado intercalando entre o tiro 1 e 2
 Estado especial 1 - Ficar invunerável com 2 minions que o curam
 */
 
-estado_atual = choose("estado 1", "estado 2", "estado 3");
+
 delay_tiro = room_speed / 2;
 espera_tiro = 0;
 delay_estado = room_speed * 10;
 
 velocidade_horizontal = 3;
 
-vida_max = 2000;
+vida_max = 1500;
 vida_atual = vida_max;
 
-alarm[0] = delay_estado;
+criar_minions = true;
+
+posso_ir_para_estagio_4 = true;
+
+///@method seleciona_estado()
+seleciona_estado = function() {
+	estado_atual = choose("estado 1", "estado 2", "estado 3");
+	alarm[0] = delay_estado;
+}
+
+seleciona_estado();
 
 ///@method tiro_02()
 tiro_02 = function() {
@@ -67,5 +77,26 @@ estado_03 = function() {
 	if (espera_tiro == delay_tiro) {		
 		tiro_01(false);
 		tiro_01(true);
+	}
+}
+
+///@method estado_04()
+estado_04 = function() {
+	sprite_index = spr_boss_escuro;
+	
+	//Ir para meio
+	x += sign(room_width / 2 - x);
+	
+	if (criar_minions) {
+		criar_minions = false;
+		
+		var _minion = instance_create_layer(128, 672, "Inimigos", obj_boss_minion);
+		_minion.image_angle = 90;
+		_minion = instance_create_layer(1760, 672, "Inimigos", obj_boss_minion);
+		_minion.image_angle = 270;
+	}
+	
+	if (!instance_exists(obj_boss_minion)) {
+		seleciona_estado();
 	}
 }

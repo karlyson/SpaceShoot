@@ -1,4 +1,4 @@
 /// @description Mudança de estado
-
-estado_atual = choose("estado 1", "estado 2", "estado 3");
-alarm[0] = delay_estado;
+if (estado_atual != "estado 4") {
+	seleciona_estado();
+}

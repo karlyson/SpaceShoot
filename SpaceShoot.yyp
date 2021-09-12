@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"screenshake","path":"scripts/screenshake/screenshake.yy",},"order":0,},
+    {"id":{"name":"obj_boss_minion","path":"objects/obj_boss_minion/obj_boss_minion.yy",},"order":1,},
     {"id":{"name":"spr_fundo_extra2","path":"sprites/spr_fundo_extra2/spr_fundo_extra2.yy",},"order":3,},
     {"id":{"name":"spr_fundo_extra3","path":"sprites/spr_fundo_extra3/spr_fundo_extra3.yy",},"order":4,},
     {"id":{"name":"spr_inimigo02","path":"sprites/spr_inimigo02/spr_inimigo02.yy",},"order":2,},
@@ -23,6 +24,7 @@
     {"id":{"name":"spr_brilho_inimigo01","path":"sprites/spr_brilho_inimigo01/spr_brilho_inimigo01.yy",},"order":6,},
     {"id":{"name":"spr_tiro_inimigo01","path":"sprites/spr_tiro_inimigo01/spr_tiro_inimigo01.yy",},"order":1,},
     {"id":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},"order":2,},
+    {"id":{"name":"obj_tiro_minion","path":"objects/obj_tiro_minion/obj_tiro_minion.yy",},"order":2,},
     {"id":{"name":"obj_inimigo02","path":"objects/obj_inimigo02/obj_inimigo02.yy",},"order":2,},
     {"id":{"name":"obj_screenshake","path":"objects/obj_screenshake/obj_screenshake.yy",},"order":3,},
     {"id":{"name":"spr_boss_escuro","path":"sprites/spr_boss_escuro/spr_boss_escuro.yy",},"order":1,},
