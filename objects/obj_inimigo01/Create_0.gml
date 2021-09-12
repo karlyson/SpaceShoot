@@ -24,7 +24,7 @@ atirando = function() {
 
 dropa_item = function(_chance) {
 	var valor = random(100);
-	if (valor < _chance) {
+	if (valor < _chance && y > 96) {
 		instance_create_layer(x,y,"Tiros", obj_power_up);
 	}
 }

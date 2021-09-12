@@ -6,6 +6,7 @@ level_tiro = 1;
 
 vida = 3;
 escudos = 3;
+meu_escudo = noone;
 
 tiro2 = function(_y_tiro) {
 	var tiro_1 = instance_create_layer(x - 60, _y_tiro + 10, "Tiros", obj_tiro2_player);
@@ -47,13 +48,14 @@ atirando = function() {
 
 ///@method perde_vida()
 perde_vida = function() {
-	
-	if (vida <= 1) {
-		instance_destroy();
-		screenshake(20);
-	} else {
-		vida--;
-		screenshake(5);
+	if (!meu_escudo) {
+		if (vida <= 1) {
+			instance_destroy();
+			screenshake(20);
+		} else {
+			vida--;
+			screenshake(5);
+		}
 	}
 }
 
@@ -62,14 +64,20 @@ level_up = function(_chance) {
 	if (_chance >= 90) {
 		if (level_tiro < 5) {
 			level_tiro++;
+		} else {
+			ganhando_pontos(100);
 		}
 	} else if (_chance >= 45) {
-		if (espera_tiro > 20) {
+		if (espera_tiro > 15) {
 			espera_tiro *= 0.9;
+		} else {
+			ganhando_pontos(10);
 		}
 	} else {
 		if (velocidade < 10) {
 			velocidade += 0.5;
+		} else {
+			ganhando_pontos(10);
 		}
 	}
 }
