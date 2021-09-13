@@ -6,14 +6,18 @@
   "playbackSpeedType": 0,
   "autoRecord": true,
   "volume": 1.0,
-  "length": 60.0,
+  "length": 90.0,
   "events": {
     "Keyframes": [],
     "resourceVersion": "1.0",
     "resourceType": "KeyframeStore<MessageEventKeyframe>",
   },
   "moments": {
-    "Keyframes": [],
+    "Keyframes": [
+      {"id":"25284724-8e79-42e7-9438-77a9a37d77d0","Key":89.9999,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Events":[
+              "cria_transicao",
+            ],"resourceVersion":"1.0","resourceType":"MomentsEventKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<MomentsEventKeyframe>",},
+    ],
     "resourceVersion": "1.0",
     "resourceType": "KeyframeStore<MomentsEventKeyframe>",
   },

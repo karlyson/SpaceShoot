@@ -1,3 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_blend = c_lime;
+alpha = 0;
+
+troquei_room = false;
+
+destino = rm_inicio;

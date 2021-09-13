@@ -7,3 +7,5 @@ ganhando_pontos(pontos);
 dropa_item(chance);
 
 screenshake(10);
+
+global.total_inimigos++;
