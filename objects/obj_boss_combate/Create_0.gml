@@ -8,6 +8,7 @@ Estado 3 - Parado intercalando entre o tiro 1 e 2
 Estado especial 1 - Ficar invunerável com 2 minions que o curam
 */
 
+audio_play_sound(snd_boss_fight, 0, 1);
 
 delay_tiro = room_speed / 2;
 espera_tiro = 0;
@@ -49,6 +50,7 @@ estado_01 = function() {
 	espera_tiro--;
 	if (espera_tiro <= 0) {
 		tiro_02();
+		audio_play_sound(sfx_laser1, 1, 0);
 		espera_tiro = delay_tiro;
 	}
 }
@@ -60,6 +62,7 @@ estado_02 = function() {
 		tiro_01(false);
 		tiro_01(true);
 		espera_tiro = delay_tiro * 2;
+		audio_play_sound(sfx_laser1, 1, 0);
 	}
 	x += velocidade_horizontal;
 	if (x >= 1632 || x <= 288) {
@@ -73,6 +76,7 @@ estado_03 = function() {
 	if (espera_tiro <= 0) {
 		tiro_02();
 		espera_tiro = delay_tiro * 2;
+		audio_play_sound(sfx_laser1, 1, 0);
 	}
 	if (espera_tiro == delay_tiro) {		
 		tiro_01(false);

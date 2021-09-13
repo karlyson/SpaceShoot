@@ -28,6 +28,8 @@ tiro4 = function(_y_tiro) {
 atirando = function() {
 	var fire = keyboard_check(vk_space);
 	if (fire && alarm[0] == -1) {
+		audio_play_sound(sfx_laser2, 1, 0);
+		
 		var y_tiro = y - (sprite_height / 3);
 		alarm[0] = espera_tiro;
 		if (level_tiro == 1) {

@@ -6,6 +6,8 @@ if (!instance_exists(obj_inimigo01)&& !level_completo) {
 		if (criar_boss) {
 			criar_boss = false;
 			layer_sequence_create("Boss_entrada", 992, 512, sq_boss_entrada);
+			
+			audio_stop_all();
 		}
 	} else {
 		repeat(10 * level) {
