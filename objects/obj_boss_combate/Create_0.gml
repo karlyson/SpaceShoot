@@ -15,12 +15,12 @@ delay_estado = room_speed * 10;
 
 velocidade_horizontal = 3;
 
-vida_max = 1500;
+vida_max = 700;
 vida_atual = vida_max;
 
 criar_minions = true;
 
-posso_ir_para_estagio_4 = true;
+posso_ir_para_estagio_4 = false;
 
 ///@method seleciona_estado()
 seleciona_estado = function() {

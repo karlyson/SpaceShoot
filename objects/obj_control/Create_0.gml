@@ -10,6 +10,9 @@ level = 1;
 proximo_level = 100;
 gameover_seq = noone;
 
+criar_boss = true;
+level_completo = false;
+
 ///@method ganha_pontos(pontos)
 ganha_pontos = function(_pontos) {
 	pontos += _pontos * level;

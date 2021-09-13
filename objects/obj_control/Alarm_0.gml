@@ -1,8 +1,16 @@
 /// @description Cria os inimigos
 
-if (!instance_exists(obj_inimigo01)) {
-	repeat(10 * level) {
-		cria_inimigo();
+if (!instance_exists(obj_inimigo01)&& !level_completo) {
+	
+	if (level >= 10) {
+		if (criar_boss) {
+			criar_boss = false;
+			layer_sequence_create("Boss_entrada", 992, 512, sq_boss_entrada);
+		}
+	} else {
+		repeat(10 * level) {
+			cria_inimigo();
+		}
 	}
 }
 
