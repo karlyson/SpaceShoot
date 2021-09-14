@@ -7,7 +7,7 @@ alarm[0] = room_speed;
 
 pontos = 0;
 level = 1;
-proximo_level = 100;
+proximo_level = 80;
 gameover_seq = noone;
 
 criar_boss = true;

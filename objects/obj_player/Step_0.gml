@@ -22,20 +22,3 @@ x = clamp(x, 64, 1856);
 y = clamp(y, 64, 1024);
 
 atirando();
-
-
-//REMOVER
-if(keyboard_check_pressed(vk_up) && level_tiro < 5) {
-	level_tiro++;
-}
-if(keyboard_check_pressed(vk_down) && level_tiro > 1) {
-	level_tiro--;
-}
-
-if(keyboard_check_pressed(vk_right)) {
-	espera_tiro *= 1.1;
-}
-
-if(keyboard_check_pressed(vk_left) && espera_tiro > 20) {
-	espera_tiro *= 0.9;
-}
