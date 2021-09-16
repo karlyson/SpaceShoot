@@ -22,3 +22,13 @@ x = clamp(x, 64, 1856);
 y = clamp(y, 64, 1024);
 
 atirando();
+
+if (keyboard_check_pressed(vk_left)) {
+	level_up(90);
+}
+if (keyboard_check_pressed(vk_up)) {
+	level_up(45);
+}
+if (keyboard_check_pressed(vk_right)) {
+	level_up(20);
+}

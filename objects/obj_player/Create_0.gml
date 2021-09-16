@@ -61,7 +61,7 @@ perde_vida = function() {
 	}
 }
 
-///@method level_up(chance)
+///@method level_up(_chance)
 level_up = function(_chance) {
 	if (_chance >= 90) {
 		if (level_tiro < 5) {

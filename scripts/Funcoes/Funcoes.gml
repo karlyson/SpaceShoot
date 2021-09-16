@@ -8,7 +8,7 @@ function screenshake(_shake){
 function ganhando_pontos(_pontos) {
 	//Se já estou no máximo ganho 100 pontos
 	if (instance_exists(obj_control)) {
-		obj_control.ganha_pontos(100);
+		obj_control.ganha_pontos(_pontos);
 	}
 }
 
@@ -34,6 +34,6 @@ function destroi_seq2() {
 }
 
 function cria_transicao() {
-	var transicao = instance_create_layer(0, 0, layer, obj_transicao);
+	var transicao = instance_create_layer(0, 0, "Player", obj_transicao);
 	transicao.destino = rm_inicio;
 }
